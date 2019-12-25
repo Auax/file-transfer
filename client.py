@@ -4,7 +4,7 @@ import os
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
-inp_hostname = input('Enter servers local IP: ')
+inp_hostname = input('Enter server local IP: ')
 hostname = inp_hostname  # servers ip
 port = 1238
 s.connect((hostname, port))
